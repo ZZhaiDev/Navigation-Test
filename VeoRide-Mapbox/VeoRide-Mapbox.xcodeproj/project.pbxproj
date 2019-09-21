@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38102F11233575B200C70324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38102F10233575B200C70324 /* AppDelegate.swift */; };
+		38102F13233575B200C70324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38102F12233575B200C70324 /* ViewController.swift */; };
+		38102F16233575B200C70324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38102F14233575B200C70324 /* Main.storyboard */; };
+		38102F18233575B300C70324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38102F17233575B300C70324 /* Assets.xcassets */; };
+		38102F1B233575B300C70324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38102F19233575B300C70324 /* LaunchScreen.storyboard */; };
+		38102F26233575B300C70324 /* VeoRide_MapboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38102F25233575B300C70324 /* VeoRide_MapboxTests.swift */; };
+		38102F31233575B300C70324 /* VeoRide_MapboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38102F30233575B300C70324 /* VeoRide_MapboxUITests.swift */; };
+		38102F472335D5E200C70324 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38102F462335D5E200C70324 /* Helper.swift */; };
+		45B91BD2C62E7589627D3EE1 /* Pods_VeoRide_Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BC253CF85160C958000EB7 /* Pods_VeoRide_Mapbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38102F22233575B300C70324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38102F05233575B200C70324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38102F0C233575B200C70324;
+			remoteInfo = "VeoRide-Mapbox";
+		};
+		38102F2D233575B300C70324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38102F05233575B200C70324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38102F0C233575B200C70324;
+			remoteInfo = "VeoRide-Mapbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38102F0D233575B200C70324 /* VeoRide-Mapbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VeoRide-Mapbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38102F10233575B200C70324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38102F12233575B200C70324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38102F15233575B200C70324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38102F17233575B300C70324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38102F1A233575B300C70324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38102F1C233575B300C70324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38102F21233575B300C70324 /* VeoRide-MapboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VeoRide-MapboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38102F25233575B300C70324 /* VeoRide_MapboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeoRide_MapboxTests.swift; sourceTree = "<group>"; };
+		38102F27233575B300C70324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38102F2C233575B300C70324 /* VeoRide-MapboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VeoRide-MapboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38102F30233575B300C70324 /* VeoRide_MapboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeoRide_MapboxUITests.swift; sourceTree = "<group>"; };
+		38102F32233575B300C70324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38102F462335D5E200C70324 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		58F4990CB862CD6C67B8C97B /* Pods-VeoRide-Mapbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeoRide-Mapbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeoRide-Mapbox/Pods-VeoRide-Mapbox.release.xcconfig"; sourceTree = "<group>"; };
+		689303D0290842C1D31C7786 /* Pods-VeoRide-Mapbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeoRide-Mapbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeoRide-Mapbox/Pods-VeoRide-Mapbox.debug.xcconfig"; sourceTree = "<group>"; };
+		B4BC253CF85160C958000EB7 /* Pods_VeoRide_Mapbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeoRide_Mapbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38102F0A233575B200C70324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B91BD2C62E7589627D3EE1 /* Pods_VeoRide_Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38102F1E233575B300C70324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38102F29233575B300C70324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0975335C9E82F98532CCB0D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC253CF85160C958000EB7 /* Pods_VeoRide_Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38102F04233575B200C70324 = {
+			isa = PBXGroup;
+			children = (
+				38102F0F233575B200C70324 /* VeoRide-Mapbox */,
+				38102F24233575B300C70324 /* VeoRide-MapboxTests */,
+				38102F2F233575B300C70324 /* VeoRide-MapboxUITests */,
+				38102F0E233575B200C70324 /* Products */,
+				EB68ACE2B68731EB1D8B6CB0 /* Pods */,
+				0975335C9E82F98532CCB0D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38102F0E233575B200C70324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38102F0D233575B200C70324 /* VeoRide-Mapbox.app */,
+				38102F21233575B300C70324 /* VeoRide-MapboxTests.xctest */,
+				38102F2C233575B300C70324 /* VeoRide-MapboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38102F0F233575B200C70324 /* VeoRide-Mapbox */ = {
+			isa = PBXGroup;
+			children = (
+				38102F10233575B200C70324 /* AppDelegate.swift */,
+				38102F12233575B200C70324 /* ViewController.swift */,
+				38102F462335D5E200C70324 /* Helper.swift */,
+				38102F14233575B200C70324 /* Main.storyboard */,
+				38102F17233575B300C70324 /* Assets.xcassets */,
+				38102F19233575B300C70324 /* LaunchScreen.storyboard */,
+				38102F1C233575B300C70324 /* Info.plist */,
+			);
+			path = "VeoRide-Mapbox";
+			sourceTree = "<group>";
+		};
+		38102F24233575B300C70324 /* VeoRide-MapboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				38102F25233575B300C70324 /* VeoRide_MapboxTests.swift */,
+				38102F27233575B300C70324 /* Info.plist */,
+			);
+			path = "VeoRide-MapboxTests";
+			sourceTree = "<group>";
+		};
+		38102F2F233575B300C70324 /* VeoRide-MapboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38102F30233575B300C70324 /* VeoRide_MapboxUITests.swift */,
+				38102F32233575B300C70324 /* Info.plist */,
+			);
+			path = "VeoRide-MapboxUITests";
+			sourceTree = "<group>";
+		};
+		EB68ACE2B68731EB1D8B6CB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				689303D0290842C1D31C7786 /* Pods-VeoRide-Mapbox.debug.xcconfig */,
+				58F4990CB862CD6C67B8C97B /* Pods-VeoRide-Mapbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38102F0C233575B200C70324 /* VeoRide-Mapbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38102F35233575B300C70324 /* Build configuration list for PBXNativeTarget "VeoRide-Mapbox" */;
+			buildPhases = (
+				B9483E1E6DEED7AC423A0559 /* [CP] Check Pods Manifest.lock */,
+				38102F09233575B200C70324 /* Sources */,
+				38102F0A233575B200C70324 /* Frameworks */,
+				38102F0B233575B200C70324 /* Resources */,
+				91F72C289B767FF1E4BE39FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VeoRide-Mapbox";
+			productName = "VeoRide-Mapbox";
+			productReference = 38102F0D233575B200C70324 /* VeoRide-Mapbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38102F20233575B300C70324 /* VeoRide-MapboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38102F38233575B300C70324 /* Build configuration list for PBXNativeTarget "VeoRide-MapboxTests" */;
+			buildPhases = (
+				38102F1D233575B300C70324 /* Sources */,
+				38102F1E233575B300C70324 /* Frameworks */,
+				38102F1F233575B300C70324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38102F23233575B300C70324 /* PBXTargetDependency */,
+			);
+			name = "VeoRide-MapboxTests";
+			productName = "VeoRide-MapboxTests";
+			productReference = 38102F21233575B300C70324 /* VeoRide-MapboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38102F2B233575B300C70324 /* VeoRide-MapboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38102F3B233575B300C70324 /* Build configuration list for PBXNativeTarget "VeoRide-MapboxUITests" */;
+			buildPhases = (
+				38102F28233575B300C70324 /* Sources */,
+				38102F29233575B300C70324 /* Frameworks */,
+				38102F2A233575B300C70324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38102F2E233575B300C70324 /* PBXTargetDependency */,
+			);
+			name = "VeoRide-MapboxUITests";
+			productName = "VeoRide-MapboxUITests";
+			productReference = 38102F2C233575B300C70324 /* VeoRide-MapboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38102F05233575B200C70324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zijia;
+				TargetAttributes = {
+					38102F0C233575B200C70324 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					38102F20233575B300C70324 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 38102F0C233575B200C70324;
+					};
+					38102F2B233575B300C70324 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 38102F0C233575B200C70324;
+					};
+				};
+			};
+			buildConfigurationList = 38102F08233575B200C70324 /* Build configuration list for PBXProject "VeoRide-Mapbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38102F04233575B200C70324;
+			productRefGroup = 38102F0E233575B200C70324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38102F0C233575B200C70324 /* VeoRide-Mapbox */,
+				38102F20233575B300C70324 /* VeoRide-MapboxTests */,
+				38102F2B233575B300C70324 /* VeoRide-MapboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38102F0B233575B200C70324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38102F1B233575B300C70324 /* LaunchScreen.storyboard in Resources */,
+				38102F18233575B300C70324 /* Assets.xcassets in Resources */,
+				38102F16233575B200C70324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38102F1F233575B300C70324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38102F2A233575B300C70324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91F72C289B767FF1E4BE39FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VeoRide-Mapbox/Pods-VeoRide-Mapbox-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework",
+				"${PODS_ROOT}/MapboxNavigationNative/MapboxNavigationNative.framework",
+				"${PODS_ROOT}/MapboxNavigationNative/MapboxNavigationNative.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxSpeech/MapboxSpeech.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/Turf/Turf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxCoreNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigationNative.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/MapboxNavigationNative.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxSpeech.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeoRide-Mapbox/Pods-VeoRide-Mapbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9483E1E6DEED7AC423A0559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeoRide-Mapbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38102F09233575B200C70324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38102F13233575B200C70324 /* ViewController.swift in Sources */,
+				38102F11233575B200C70324 /* AppDelegate.swift in Sources */,
+				38102F472335D5E200C70324 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38102F1D233575B300C70324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38102F26233575B300C70324 /* VeoRide_MapboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38102F28233575B300C70324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38102F31233575B300C70324 /* VeoRide_MapboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38102F23233575B300C70324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38102F0C233575B200C70324 /* VeoRide-Mapbox */;
+			targetProxy = 38102F22233575B300C70324 /* PBXContainerItemProxy */;
+		};
+		38102F2E233575B300C70324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38102F0C233575B200C70324 /* VeoRide-Mapbox */;
+			targetProxy = 38102F2D233575B300C70324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38102F14233575B200C70324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38102F15233575B200C70324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38102F19233575B300C70324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38102F1A233575B300C70324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38102F33233575B300C70324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38102F34233575B300C70324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38102F36233575B300C70324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689303D0290842C1D31C7786 /* Pods-VeoRide-Mapbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSV5RQ2S7L;
+				INFOPLIST_FILE = "VeoRide-Mapbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zijia.VeoRide-Mapbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38102F37233575B300C70324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F4990CB862CD6C67B8C97B /* Pods-VeoRide-Mapbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSV5RQ2S7L;
+				INFOPLIST_FILE = "VeoRide-Mapbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zijia.VeoRide-Mapbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38102F39233575B300C70324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSV5RQ2S7L;
+				INFOPLIST_FILE = "VeoRide-MapboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zijia.VeoRide-MapboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeoRide-Mapbox.app/VeoRide-Mapbox";
+			};
+			name = Debug;
+		};
+		38102F3A233575B300C70324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSV5RQ2S7L;
+				INFOPLIST_FILE = "VeoRide-MapboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zijia.VeoRide-MapboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeoRide-Mapbox.app/VeoRide-Mapbox";
+			};
+			name = Release;
+		};
+		38102F3C233575B300C70324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSV5RQ2S7L;
+				INFOPLIST_FILE = "VeoRide-MapboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zijia.VeoRide-MapboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VeoRide-Mapbox";
+			};
+			name = Debug;
+		};
+		38102F3D233575B300C70324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSV5RQ2S7L;
+				INFOPLIST_FILE = "VeoRide-MapboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zijia.VeoRide-MapboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VeoRide-Mapbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38102F08233575B200C70324 /* Build configuration list for PBXProject "VeoRide-Mapbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38102F33233575B300C70324 /* Debug */,
+				38102F34233575B300C70324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38102F35233575B300C70324 /* Build configuration list for PBXNativeTarget "VeoRide-Mapbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38102F36233575B300C70324 /* Debug */,
+				38102F37233575B300C70324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38102F38233575B300C70324 /* Build configuration list for PBXNativeTarget "VeoRide-MapboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38102F39233575B300C70324 /* Debug */,
+				38102F3A233575B300C70324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38102F3B233575B300C70324 /* Build configuration list for PBXNativeTarget "VeoRide-MapboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38102F3C233575B300C70324 /* Debug */,
+				38102F3D233575B300C70324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38102F05233575B200C70324 /* Project object */;
+}
