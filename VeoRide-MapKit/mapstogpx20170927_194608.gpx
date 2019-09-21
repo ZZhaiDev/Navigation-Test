@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data copyright 2017 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2017</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/41.8904422,-87.6321609/Rush & Division, Chicago, IL/@41.8952657,-87.6349024,16z/am=t/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x880fd352076dc7a1:0x35fe5a09c64357de!2m2!1d-87.6284297!2d41.8997769?hl=en</url-->
+    <time>2017-09-27T14:46:06Z</time>
+  </metadata>
+  <wpt lat="41.8904332" lon="-87.6324782">
+    <name>WP001</name>
+  </wpt>
+  <wpt lat="41.890882776833" lon="-87.632491292727">
+    <name>WP002</name>
+  </wpt>
+  <wpt lat="41.891332353666" lon="-87.632504385453">
+    <name>WP003</name>
+  </wpt>
+  <wpt lat="41.891781930499" lon="-87.63251747818">
+    <name>WP004</name>
+  </wpt>
+  <wpt lat="41.892231507332" lon="-87.632530570906">
+    <name>WP005</name>
+  </wpt>
+  <wpt lat="41.8924351" lon="-87.6325365">
+    <name>WP006</name>
+  </wpt>
+  <wpt lat="41.892439926494" lon="-87.631932447402">
+    <name>WP007</name>
+  </wpt>
+  <wpt lat="41.892444752987" lon="-87.631328394804">
+    <name>WP008</name>
+  </wpt>
+  <wpt lat="41.892449579481" lon="-87.630724342206">
+    <name>WP009</name>
+  </wpt>
+  <wpt lat="41.892454405974" lon="-87.630120289608">
+    <name>WP010</name>
+  </wpt>
+  <wpt lat="41.8924579" lon="-87.629683">
+    <name>WP011</name>
+  </wpt>
+  <wpt lat="41.892907522642" lon="-87.629692851575">
+    <name>WP012</name>
+  </wpt>
+  <wpt lat="41.893357145284" lon="-87.62970270315">
+    <name>WP013</name>
+  </wpt>
+  <wpt lat="41.893806767927" lon="-87.629712554725">
+    <name>WP014</name>
+  </wpt>
+  <wpt lat="41.894256390569" lon="-87.6297224063">
+    <name>WP015</name>
+  </wpt>
+  <wpt lat="41.894706013211" lon="-87.629732257876">
+    <name>WP016</name>
+  </wpt>
+  <wpt lat="41.895155635853" lon="-87.629742109451">
+    <name>WP017</name>
+  </wpt>
+  <wpt lat="41.895605258495" lon="-87.629751961026">
+    <name>WP018</name>
+  </wpt>
+  <wpt lat="41.896054881138" lon="-87.629761812601">
+    <name>WP019</name>
+  </wpt>
+  <wpt lat="41.89650450378" lon="-87.629771664176">
+    <name>WP020</name>
+  </wpt>
+  <wpt lat="41.896954126422" lon="-87.629781515751">
+    <name>WP021</name>
+  </wpt>
+  <wpt lat="41.897403749064" lon="-87.629791367326">
+    <name>WP022</name>
+  </wpt>
+  <wpt lat="41.897853371706" lon="-87.629801218901">
+    <name>WP023</name>
+  </wpt>
+  <wpt lat="41.898302994349" lon="-87.629811070476">
+    <name>WP024</name>
+  </wpt>
+  <wpt lat="41.898752616991" lon="-87.629820922051">
+    <name>WP025</name>
+  </wpt>
+  <wpt lat="41.8991076" lon="-87.6298287">
+    <name>WP026</name>
+  </wpt>
+  <wpt lat="41.899115737724" lon="-87.629224648386">
+    <name>WP027</name>
+  </wpt>
+  <wpt lat="41.899123875448" lon="-87.628620596772">
+    <name>WP028</name>
+  </wpt>
+  <wpt lat="41.8991286" lon="-87.6282699">
+    <name>WP029</name>
+  </wpt>
+</gpx>
